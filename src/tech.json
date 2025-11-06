@@ -1,0 +1,23 @@
+{
+  "UI": "HTML / CSS3 / SCSS",
+  "langs": "JavaScript / TypeScript",
+  "frameworks": "React / Next.js",
+  "stateManagers": "Zustand / Redux Toolkit",
+  "stateQuery": "TanStack Query",
+  "libs": "React Hook Form / Yup",
+  "libsUI": "Chakra UI / Material UI / Ant Design / TailwindCSS / Headless UI / Storybook",
+  "libsAnimation": "Recharts / Nivo / framer-motion / D3",
+  "requests": "Axios",
+  "utils": "i18next / dayjs",
+  "test": "Jest / RTL / Vitest / Cypress",
+  "bundlers": "Git / Webpack / Vite / Gulp",
+  "api": "REST / GraphQL / Swagger / SocketIO",
+  "frameworksBack": "Express / WebSocket / Koa / Prisma",
+  "databases": "PostgreSQL / MySQL",
+  "prod": "Docker / CI/CD",
+  "design": "Figma",
+  "workplaning": "Agile / Scrum / Kanban",
+  "arch": "FSD",
+  "principles": "KISS / DRY / SOLID",
+  "server": "Linux / Bash"
+}
