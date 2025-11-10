@@ -12,6 +12,7 @@ import {
   CircleFadingArrowUp,
 } from 'lucide-react';
 import infoData from '@/data/info.json';
+const baseUrl = import.meta.env.BASE_URL;
 
 const PageMinimal = () => {
   return (
@@ -48,7 +49,7 @@ const PageMinimal = () => {
                   <img
                     className="  h-full  object-cover  filter-[contrast(1.05)] "
                     alt="Портрет разработчика"
-                    src={`/src/assets/profile.webp`}
+                    src={`${baseUrl}src/assets/profile.webp`}
                   />
                 </div>
                 <div className="flex flex-col">
