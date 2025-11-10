@@ -44,9 +44,9 @@ const PageMinimal = () => {
           <div className="relative p-6 md:p-8">
             <div className="flex flex-col items-start gap-6 sm:flex-row sm:items-center sm:justify-between">
               <div className="flex   gap-4">
-                <div className="relative">
+                <div className="overflow-hidden   max-w-[110px] sm:max-w-[120px]  aspect-square rounded-lg ring- ring-green-100 ">
                   <img
-                    className=" max-w-[110px] sm:max-w-[120px] aspect-square rounded-lg  object-cover  filter-[contrast(1.05)] ring- ring-green-100"
+                    className="  h-full  object-cover  filter-[contrast(1.05)] "
                     alt="Портрет разработчика"
                     src={`/src/assets/profile.webp`}
                   />
@@ -81,7 +81,7 @@ const PageMinimal = () => {
                   target="_blank"
                   className="inline-flex items-center gap-2 rounded-md px-3.5 py-2 text-sm font-medium text-neutral-200 ring-1 ring-neutral-800/80 transition outline-none hover:text-green-100 hover:ring-green-100/40 focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-green-100">
                   <Download size={14} />
-                  <span>PDF</span>
+                  <span>CV</span>
                 </a>
               </div>
             </div>
