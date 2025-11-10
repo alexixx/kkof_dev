@@ -1,14 +1,14 @@
 import {
   Clock,
   Mail,
-  ArrowUpRight,
+  //   ArrowUpRight,
   Download,
   Code2,
   Gauge,
   GitCompareArrows,
   Send,
-  Globe,
-  Shield,
+  //   Globe,
+  //   Shield,
   CircleFadingArrowUp,
 } from 'lucide-react';
 import infoData from '@/data/info.json';
