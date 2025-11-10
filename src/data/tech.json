@@ -5,7 +5,7 @@
   "stateManagers": "Zustand / Redux Toolkit",
   "stateQuery": "TanStack Query",
   "libs": "React Hook Form / Yup",
-  "libsUI": "Chakra UI / Material UI / Ant Design / TailwindCSS / Headless UI / Storybook",
+  "libsUI": "TailwindCSS / Headless UI / Chakra UI / Material UI / Storybook",
   "libsAnimation": "Recharts / Nivo / framer-motion / D3",
   "requests": "Axios",
   "utils": "i18next / dayjs",

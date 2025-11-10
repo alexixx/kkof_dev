@@ -2,6 +2,9 @@
 
 @theme {
   --color-orange-100: #ffa500;
+  /* --color-green-100: #9bf39f; */
+  /* --color-green-100: #55c95a; */
+  --color-green-100: #98d69b;
 
   --animate-blink: blink 1s infinite;
 
@@ -10,6 +13,9 @@
       opacity: 0;
     }
   }
+}
+#root {
+  width: 100%;
 }
 
 :root {
@@ -32,14 +38,16 @@ body {
   display: flex;
   min-width: 320px;
   min-height: 100vh;
-  overflow-y: scroll;
 }
 
 ::-webkit-scrollbar {
   @apply w-2 h-10;
 }
-::-webkit-scrollbar-thumb {
+/* ::-webkit-scrollbar-thumb {
   @apply bg-orange-100 border-solid  border-transparent bg-clip-padding;
+} */
+::-webkit-scrollbar-thumb {
+  @apply bg-green-100 border-solid  border-transparent bg-clip-padding;
 }
 ::-webkit-scrollbar-corner {
   @apply bg-black;
@@ -48,7 +56,7 @@ body {
   @apply bg-black border-transparent bg-clip-padding;
 }
 
-.terminal-shadow {
+/* .terminal-shadow {
   box-shadow: 0 0 60px rgba(255, 165, 0, 0.15), 0 0 2px rgba(255, 165, 0, 0.3);
 }
 .glow-text {
@@ -61,17 +69,19 @@ body {
 .title-hover:hover {
   text-shadow: 0 0 15px rgba(255, 166, 0, 0.966);
   transition: 0.2s;
-}
+} */
 
-@media (prefers-color-scheme: light) {
-  /* :root {
-    color: #213547;
-    background-color: #ffffff;
-  }
-  a:hover {
-    color: #747bff;
-  }
-  button {
-    background-color: #f9f9f9;
-  } */
+.terminal-shadow {
+  box-shadow: 0 0 60px rgba(30, 255, 0, 0.15), 0 0 2px rgba(0, 255, 64, 0.3);
+}
+.glow-text {
+  text-shadow: 0 0 10px #9bf39f7e;
+}
+.link-hover:hover {
+  text-shadow: 0 0 15px #9bf39fc2;
+  transform: translateX(4px);
+}
+.title-hover:hover {
+  text-shadow: 0 0 15px #9bf39fe5;
+  transition: 0.2s;
 }
