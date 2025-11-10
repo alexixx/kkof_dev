@@ -49,7 +49,7 @@ const PageMinimal = () => {
                   <img
                     className="  h-full  object-cover  filter-[contrast(1.05)] "
                     alt="Портрет разработчика"
-                    src={`${baseUrl}src/assets/profile.webp`}
+                    src={`${baseUrl}profile.webp`}
                   />
                 </div>
                 <div className="flex flex-col">
